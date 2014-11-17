@@ -1,0 +1,29 @@
+﻿<Window x:Class="HW_2_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="399.167" Width="309.5">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="49" Margin="6,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283" FontSize="20" Name="tb_Result"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="6,140,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" Name="_9"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="60,140,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" x:Name="_8"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="116,140,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" x:Name="_7" />
+        <Button Content="6" HorizontalAlignment="Left" Margin="6,195,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" x:Name="_6"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="60,195,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" x:Name="_5"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="116,195,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" x:Name="_4"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="6,250,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" x:Name="_3"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="60,250,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" x:Name="_2"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="116,250,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" x:Name="_1"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="6,305,0,0" VerticalAlignment="Top" Width="104" Click="btnValueClick" Height="50" FontSize="25" x:Name="_0"/>
+        <Button Content="." HorizontalAlignment="Left" Margin="116,305,0,0" VerticalAlignment="Top" Width="50" Click="btnValueClick" Height="50" FontSize="25" x:Name="Point"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="183,140,0,0" VerticalAlignment="Top" Width="50" Click="btnActionClick" Height="50" FontSize="25" x:Name="Division"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="183,195,0,0" VerticalAlignment="Top" Width="50" Click="btnActionClick" Height="50" FontSize="25" x:Name="Multiplication"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="183,250,0,0" VerticalAlignment="Top" Width="50" Click="btnActionClick" Height="50" FontSize="25" x:Name="Subtraction"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="183,305,0,0" VerticalAlignment="Top" Width="50" Click="btnActionClick" Height="50" FontSize="25" x:Name="Addition"/>
+        <Button Content="№" HorizontalAlignment="Left" Margin="239,140,0,0" VerticalAlignment="Top" Width="50" Click="btnActionClick" Height="50" FontSize="25" x:Name="SQRT"/>
+        <Button Content="X2" HorizontalAlignment="Left" Margin="239,195,0,0" VerticalAlignment="Top" Width="50" Click="btnActionClick" Height="50" FontSize="25" x:Name="SQR"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="239,250,0,0" VerticalAlignment="Top" Width="50" Click="btnActionClick" Height="105" FontSize="25" x:Name="Equils"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="183,85,0,0" VerticalAlignment="Top" Width="106" Click="btnActionClick" Height="50" FontSize="25" x:Name="C"/>
+        <Button Content="CE" HorizontalAlignment="Left" Margin="6,85,0,0" VerticalAlignment="Top" Width="160" Click="btnActionClick" Height="50" FontSize="25" x:Name="CE" RenderTransformOrigin="0.5,0.5"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="6,0,0,0" VerticalAlignment="Top" Width="283" Name="lblOperations"/>
+    </Grid>
+</Window>
